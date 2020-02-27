@@ -19,7 +19,7 @@ a {
 }
 
 li {
-    style: none;
+    list-style: none;
 }
 
 /*utils*/
@@ -28,6 +28,24 @@ li {
     margin: 0 auto;
 }
 
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    background: #000;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #777;
+
+}
 /*nav*/
 
 .navbar {
@@ -57,4 +75,65 @@ li {
 
 .rightLogo {
     margin-left: 1.5rem;
+}
+
+/*connect*/
+
+.connect {
+    background-image: url("./background-image.png");
+    padding: 5rem;
+    background-color: #bcbce2;
+    min-height: 500px;
+}
+
+.connect .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sampleTest {
+    margin: 4rem;
+    max-width: 430px;
+}
+
+.sampleTest p {
+    color: #4f7a8d;
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sampleTest .btn {
+    background: #f3438c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.connectDetails {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    max-width: 350px;
+}
+
+.connectDetails h1 {
+    color: #4f7a8d;
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.connectDetails span {
+    display: inline-block;
+    color: #ff4040;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.customerDetailsInput .btn{
+    background: #1a8818;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 2rem;
 }
