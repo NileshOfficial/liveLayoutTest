@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+
+    .connect .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sampleTest {
+        text-align: center;
+    }
+
+    .sampleTest p {
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .heading {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .opinion {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .opinion .personDetail {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .container > span:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .opinion p {
+        min-height: 110px;
+    }
+}
