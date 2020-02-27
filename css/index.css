@@ -26,6 +26,8 @@ li {
 .container {
     max-width: 1300px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn {
@@ -56,8 +58,6 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 .navbar .container{
-    display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 }
 
@@ -73,6 +73,10 @@ input[type="text"], input[type="email"], input[type="tel"] {
     border-right: 1px solid #777;
 }
 
+.navlink:hover {
+    text-decoration: underline;
+}
+
 .rightLogo {
     margin-left: 1.5rem;
 }
@@ -84,11 +88,6 @@ input[type="text"], input[type="email"], input[type="tel"] {
     padding: 5rem;
     background-color: #bcbce2;
     min-height: 500px;
-}
-
-.connect .container{
-    display: flex;
-    justify-content: space-between;
 }
 
 .sampleTest {
@@ -108,6 +107,11 @@ input[type="text"], input[type="email"], input[type="tel"] {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+    transition: ease-in-out 0.2s;
+}
+
+.sampleTest .btn:hover {
+    background: #f3438ca1;
 }
 
 .connectDetails {
@@ -136,4 +140,72 @@ input[type="text"], input[type="email"], input[type="tel"] {
     font-weight: 400;
     font-size: 1.8rem;
     margin-top: 2rem;
+    transition: ease-in-out 0.2s;
+}
+
+.customerDetailsInput .btn:hover {
+    background: #1a8818e1;
+}
+
+/*footer*/
+
+.footer {
+    background: #0061c4;
+    padding: 5rem 10rem;
+    color: #fff
+}
+
+.footer .heading {
+    flex: 3;
+    margin-right: 5rem;
+}
+
+.footer .heading h2 {
+    font-weight: 400;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer .heading a {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10rem;
+    background: #3a87e1;
+}
+
+.footer .heading a img {
+    width: 20px;
+    margin: auto;
+}
+
+.opinion {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    flex: 2;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.opinion:last-child {
+    margin-right: 0;
+}
+
+.opinion p {
+    min-height: 110px;
+}
+
+.opinion .personDetail {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.opinion .personDetail img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.opinion .personDetail span {
+    text-transform: uppercase;
 }
