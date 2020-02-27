@@ -18,6 +18,10 @@ a {
     color: inherit;
 }
 
+li {
+    style: none;
+}
+
 /*utils*/
 .container {
     max-width: 1300px;
@@ -26,3 +30,31 @@ a {
 
 /*nav*/
 
+.navbar {
+    background-color: #ffd900;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navlink {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.navlink:first-child {
+    border-right: 1px solid #777;
+}
+
+.rightLogo {
+    margin-left: 1.5rem;
+}
